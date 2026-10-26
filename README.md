@@ -1,1 +1,1 @@
-# AWS DevSecOps Pipeline Guardrail Portfolio Project
+# AWS DevSecOps Pipeline Guardrail
