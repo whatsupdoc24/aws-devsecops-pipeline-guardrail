@@ -20,3 +20,4 @@ resource "aws_security_group" "vulnerable_sg" {
     cidr_blocks = ["0.0.0.0/0"] # This will trigger a hard-fail scan later
   }
 }
+
