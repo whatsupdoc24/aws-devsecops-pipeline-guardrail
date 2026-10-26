@@ -38,7 +38,6 @@ resource "aws_security_group" "vulnerable_sg" {
     cidr_blocks = ["78.22.45.111/32"] # Secure mock company static IP block
   }
 }
-
  
  
  
