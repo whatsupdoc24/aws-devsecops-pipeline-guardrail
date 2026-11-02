@@ -34,7 +34,8 @@ jobs:
         uses: aquasecurity/trivy-action@master
         with:
           scan-type: 'fs'
+          scanners: 'misconfig,secret,vuln'
           ignore-unfixed: true
           format: 'table'
-          exit-code: '1' # Forces the step to hard-fail if HIGH or CRITICAL issues exist
+          exit-code: '1'
           severity: 'HIGH,CRITICAL'
