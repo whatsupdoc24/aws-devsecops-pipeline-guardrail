@@ -30,6 +30,7 @@ jobs:
 
       # Step 5: Run Trivy to scan the repository filesystem for exposed secrets or vulnerabilities
       - name: "Run Trivy Security Scanner"
+        if: always()
         uses: aquasecurity/trivy-action@master
         with:
           scan-type: 'fs'
